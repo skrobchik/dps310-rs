@@ -15,7 +15,7 @@ repository = "https://github.com/dprotsiv/dps310-rs"
 targets = ["thumbv6m-none-eabi"]
 
 [dependencies]
-embedded-hal = "0.2"
+embedded-hal = "=1.0.0-alpha.9"
 
 [dev-dependencies]
 cortex-m = "0.7"
